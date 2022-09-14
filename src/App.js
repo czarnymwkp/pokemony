@@ -1,5 +1,7 @@
 import { useEffect, useState, useInsertionEffect, useLayoutEffect } from 'react'
 import './App.css'
+import PrevPoke from './components/button/PrevBtn'
+import PokeHeader from './components/header/PokemonHeader'
 import Pokemons from './components/pokemons/Pokemons'
 
 function Example() {
@@ -64,9 +66,10 @@ function Example() {
 
 	return (
 		<>
-			<h1>POKEDEX</h1>
+			<PokeHeader />
 			<div className='main'>
 				<div className='buttonsPrevNet'>
+					<PrevPoke />
 					<button disabled={!prev} onClick={onPrev} className='btnNextOne'>
 						Prev
 					</button>
