@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.pokemonapp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+button {
+	margin: 10px;
+	border-radius: 20px;
+	width: 100px;
+	height: 50px;
+	background-color: rgb(236, 224, 168);
+	text-transform: uppercase;
+}
+
+h1 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.pokemonBoxAll {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.input {
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
